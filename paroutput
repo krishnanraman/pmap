@@ -1,0 +1,115 @@
+[tw-mbp13-kraman scala (geo_measurement)]$ scald.rb --jars ads-batch-deploy.jar:parallelmap.jar --local MyParallelJob.scala --parallel true --tasks 10
+[INFO] Found Job Class: MyParallelJob
+compiling MyParallelJob.scala
+scalac -classpath /var/folders/b_/17q0nsss269_2kf855mtg4_c0000gn/T/maven/hadoop-core-0.20.2.jar:/var/folders/b_/17q0nsss269_2kf855mtg4_c0000gn/T/maven/log4j-1.2.15.jar:/var/folders/b_/17q0nsss269_2kf855mtg4_c0000gn/T/maven/commons-httpclient-3.1.jar:/var/folders/b_/17q0nsss269_2kf855mtg4_c0000gn/T/maven/commons-cli-1.2.jar:/var/folders/b_/17q0nsss269_2kf855mtg4_c0000gn/T/maven/zookeeper-3.3.4.jar:/Users/kraman/workspace/science/dist/ads-batch-deploy.jar:/Users/kraman/workspace/science/dist/parallelmap.jar -d /var/folders/b_/17q0nsss269_2kf855mtg4_c0000gn/T/script-build MyParallelJob.scala
+13/04/17 23:31:23 INFO property.AppProps: using app.id: C5FFA9EBF06A3D1455EC0EB38CB44FF4
+13/04/17 23:31:23 INFO util.Version: Concurrent, Inc - Cascading 2.1.6-wip-114
+13/04/17 23:31:23 INFO flow.Flow: [MyParallelJob] starting
+13/04/17 23:31:23 INFO flow.Flow: [MyParallelJob]  source: MemoryTap["TextDelimited[['p1']]"]["0.06643275865175657"]
+13/04/17 23:31:23 INFO flow.Flow: [MyParallelJob]  sink: FileTap["TextDelimited[[UNKNOWN]->[ALL]]"]["resultpipe"]
+13/04/17 23:31:23 INFO flow.Flow: [MyParallelJob]  parallel execution is enabled: true
+13/04/17 23:31:23 INFO flow.Flow: [MyParallelJob]  starting jobs: 1
+13/04/17 23:31:23 INFO flow.Flow: [MyParallelJob]  allocating threads: 1
+13/04/17 23:31:23 INFO flow.FlowStep: [MyParallelJob] starting step: local
+waiting...
+Task:1
+Task:2
+Task:3
+Task:4
+Task:5
+Task:6
+Task:7
+Task:8
+Task:9
+making next 10
+Task:11
+Task:12
+Task:13
+Task:14
+Task:15
+Task:16
+Task:17
+Task:18
+Task:19
+making next 10
+Task:21
+Task:22
+Task:23
+Task:24
+Task:25
+Task:26
+Task:27
+Task:28
+Task:29
+making next 10
+Task:31
+Task:32
+Task:33
+Task:34
+Task:35
+Task:36
+Task:37
+Task:38
+Task:39
+making next 10
+Task:41
+Task:42
+Task:43
+Task:44
+Task:45
+Task:46
+Task:47
+Task:48
+Task:49
+making next 10
+Task:51
+Task:52
+Task:53
+Task:54
+Task:55
+Task:56
+Task:57
+Task:58
+Task:59
+making next 10
+Task:61
+Task:62
+Task:63
+Task:64
+Task:65
+Task:66
+Task:67
+Task:68
+Task:69
+making next 10
+Task:71
+Task:72
+Task:73
+Task:74
+Task:75
+Task:76
+Task:77
+Task:78
+Task:79
+making next 10
+Task:81
+Task:82
+Task:83
+Task:84
+Task:85
+Task:86
+Task:87
+Task:88
+Task:89
+making next 10
+Task:91
+Task:92
+Task:93
+Task:94
+Task:95
+Task:96
+Task:97
+Task:98
+Task:99
+done! 
+All Done!
